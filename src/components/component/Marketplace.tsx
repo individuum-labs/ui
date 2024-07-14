@@ -30,7 +30,7 @@ export function Marketplace() {
       <header className="flex items-center justify-between px-6 py-4 border-b bg-background">
         <Link href="#" className="flex items-center gap-2 font-semibold text-lg" prefetch={false}>
           <BriefcaseIcon className="h-6 w-6" />
-          Marketplace
+          Idividuum
         </Link>
         <Button variant="outline" className="px-4 py-2 rounded-md">
           Login
@@ -39,7 +39,7 @@ export function Marketplace() {
       <main className="flex-1 px-6 py-8">
         <div className="max-w-4xl mx-auto grid gap-8">
           <div className="grid gap-2">
-            <h1 className="text-3xl font-bold">Earn by Completing Tasks</h1>
+            <h1 className="text-3xl font-bold">Live Offers</h1>
             <p className="text-muted-foreground">Browse and complete social media tasks to earn rewards.</p>
           </div>
           <div className="grid gap-4">
@@ -91,7 +91,7 @@ export function Marketplace() {
                 <Progress value={Math.floor(Math.random() * 101)} aria-label="Budget progress" />
                 <div className="text-sm font-medium">{Math.floor(Math.random() * 101)}%</div>
               </div>
-              <Button className="w-full">Complete Task</Button>
+              <Button className="w-full">Apply</Button>
             </div>
             <div className="bg-muted rounded-lg p-6 grid gap-4">
               <div className="flex items-center justify-between">
@@ -116,7 +116,7 @@ export function Marketplace() {
                 <Progress value={Math.floor(Math.random() * 101)} aria-label="Budget progress" />
                 <div className="text-sm font-medium">{Math.floor(Math.random() * 101)}%</div>
               </div>
-              <Button className="w-full">Complete Task</Button>
+              <Button className="w-full">Apply</Button>
             </div>
           </div>
           <Button className="ml-auto">Post</Button>
